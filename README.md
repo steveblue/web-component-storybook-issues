@@ -11,7 +11,7 @@ The first issue can be reproduced on the main branch. TableCard includes many ch
 ![](screenshots/no-table.png)
 
 
-An undesirable workaround is found on the workaround/nested branch.
+An undesirable workaround is found on the workaround/nested branch. Table, Tr, and Td are exported from the TableCard.stories.ts file, which causes them to be listed in the sidebar.
 
 
 ![](screenshots/table.png)
