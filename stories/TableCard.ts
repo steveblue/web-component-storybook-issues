@@ -1,3 +1,5 @@
+let count = 1;
+
 export class TableCard extends HTMLElement {
   constructor() {
     super();
@@ -14,6 +16,7 @@ export class TableCard extends HTMLElement {
     </tbody>
     </table>`;
     shadowRoot.appendChild(template.content.cloneNode(true));
+    console.log("table card constructor", count++);
   }
 }
 
