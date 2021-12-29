@@ -11,9 +11,10 @@ export default {
 } as Meta;
 
 const Template: Story<Partial<any>> = (args) => html`
-  <div>This should display a table.</div>
   <a-tablecard></a-tablecard>
 `;
 
 export const Primary = Template.bind({});
 Primary.args = {};
+
+export { TableCard, Table, Tr, Td };
